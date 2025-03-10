@@ -6,7 +6,7 @@ const TodoComputed = () => {
         useContext(TodoContext)
 
     return (
-        <section className="py-4 px-4 flex justify-between">
+        <section className="py-4 px-4 flex justify-between dark:bg-gray-800">
             <span className="text-gray-400">
                 {handleComputedItemsLeft} item left
             </span>

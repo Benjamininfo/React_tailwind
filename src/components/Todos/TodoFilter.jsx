@@ -12,7 +12,7 @@ const TodoFilter = () => {
 
     return (
         <section className="container mx-auto px-4 mt-6">
-            <div className="flex justify-center gap-4 rounded-md bg-white p-4">
+            <div className="flex justify-center gap-4 rounded-md bg-white p-4 dark:bg-gray-800">
                 <button
                     className={switchHover('all')}
                     onClick={() => handleSwitchFiler('all')}

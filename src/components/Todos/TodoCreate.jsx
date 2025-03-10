@@ -14,7 +14,7 @@ const TodoCreate = () => {
     return (
         <form
             onSubmit={onSubmit}
-            className="flex bg-white gap-4 rounded
+            className="flex bg-white gap-4 rounded dark:bg-gray-800
                     overflow-hidden py-4 px-4 items-center mt-12"
         >
             <span
